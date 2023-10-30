@@ -1,0 +1,113 @@
+// Dota Heroes File
+// NOTE: This is not for creating new heroes, this is for taking a currently existing hero as a template and overriding
+// the specified key-value combinations.  Use override_hero <hero_to_override> for this.
+"DOTAHeroes"
+{
+	"npc_dota_hero_weaver_lua"
+	{
+		"override_hero"					"npc_dota_hero_weaver"	// Hero to override
+		"VisionNighttimeRange"			"15000"
+		"VisionDaytimeRange"			"15000"
+		"MovementCapabilities"			"DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities"			"DOTA_UNIT_CAP_NO_ATTACK"
+		
+		"Ability1"						"Roll"
+		"Ability2"						"Buy"		
+		"Ability3"						"Upgrade"			
+		"Ability4"						"Mortgage"			
+		"Ability5"						"Buy_back"		
+		"Ability6"						"None"			
+		"Ability7"						"None"		
+		"Ability8"						"None"			
+		"Ability9"						"None"
+		"Ability10"						"None"
+		"Ability11"						"None"
+		"Ability12"						"None"
+		"Ability13"						"None"
+		"Ability14"						"None"
+		"Ability15"						"None"
+		"Ability16"						"None"
+		"Ability17"						"None"
+	}
+
+	"npc_dota_hero_clinkz_lua"
+	{
+		"override_hero"					"npc_dota_hero_clinkz"	// Hero to override
+		"VisionNighttimeRange"			"15000"
+		"VisionDaytimeRange"			"15000"
+		"MovementCapabilities"			"DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities"			"DOTA_UNIT_CAP_NO_ATTACK"
+		
+		"Ability1"						"Roll"
+		"Ability2"						"Buy"		
+		"Ability3"						"None"			
+		"Ability4"						"Buy_back"			
+		"Ability5"						"None"		
+		"Ability6"						"None"			
+		"Ability7"						"None"		
+		"Ability8"						"None"			
+		"Ability9"						"None"
+		"Ability10"						"None"
+		"Ability11"						"None"
+		"Ability12"						"None"
+		"Ability13"						"None"
+		"Ability14"						"None"
+		"Ability15"						"None"
+		"Ability16"						"None"
+		"Ability17"						"None"
+	}
+
+	"npc_dota_hero_life_stealer_lua"
+	{
+		"override_hero"					"npc_dota_hero_life_stealer"	// Hero to override
+		"VisionNighttimeRange"			"15000"
+		"VisionDaytimeRange"			"15000"
+		"MovementCapabilities"			"DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities"			"DOTA_UNIT_CAP_NO_ATTACK"
+		
+		"Ability1"						"Roll"
+		"Ability2"						"Buy"		
+		"Ability3"						"None"			
+		"Ability4"						"Buy_back"			
+		"Ability5"						"None"		
+		"Ability6"						"None"			
+		"Ability7"						"None"		
+		"Ability8"						"None"			
+		"Ability9"						"None"
+		"Ability10"						"None"
+		"Ability11"						"None"
+		"Ability12"						"None"
+		"Ability13"						"None"
+		"Ability14"						"None"
+		"Ability15"						"None"
+		"Ability16"						"None"
+		"Ability17"						"None"
+	}
+
+	"npc_dota_hero_juggernaut_lua"
+	{
+		"override_hero"					"npc_dota_hero_juggernaut"	// Hero to override
+		"VisionNighttimeRange"			"15000"
+		"VisionDaytimeRange"			"15000"
+		"MovementCapabilities"			"DOTA_UNIT_CAP_MOVE_NONE"
+		"AttackCapabilities"			"DOTA_UNIT_CAP_NO_ATTACK"
+		
+		"Ability1"						"Roll"
+		"Ability2"						"Buy"		
+		"Ability3"						"None"			
+		"Ability4"						"Buy_back"			
+		"Ability5"						"None"		
+		"Ability6"						"None"			
+		"Ability7"						"None"		
+		"Ability8"						"None"			
+		"Ability9"						"None"
+		"Ability10"						"None"
+		"Ability11"						"None"
+		"Ability12"						"None"
+		"Ability13"						"None"
+		"Ability14"						"None"
+		"Ability15"						"None"
+		"Ability16"						"None"
+		"Ability17"						"None"
+	}
+}

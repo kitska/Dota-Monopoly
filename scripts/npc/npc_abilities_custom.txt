@@ -1,0 +1,218 @@
+// Dota Heroes File
+"DOTAAbilities"
+{
+	"Version"		"1"
+
+	"Roll"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"roll.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+		"AbilityTextureName"			"dice_icon"
+		"MaxLevel"						"1"
+	}
+
+	"Buy"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"buy.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+		"MaxLevel"						"1"
+		"AbilityTextureName"			"buy_icon"
+
+	}
+
+	"None"
+	{
+		"BaseClass"					"ability_lua"
+		"ScriptFile"				"none.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+		"MaxLevel"					"1"
+		"AbilityTextureName"		"none_icon"
+	}
+
+	"Pay_tax"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"pay_tax.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"bounty_hunter_jinada"
+		"MaxLevel"						"1"
+
+    	"AbilitySpecial"
+    	{
+    	  "01"
+    	  {
+    	    "var_type"          "FIELD_INTEGER"
+    	    "chance"            "100"
+    	  }
+    	  "02"
+    	  {
+    	    "var_type"          "FIELD_INTEGER"
+    	    "gold"     			"0"
+    	  }
+    	  "03"
+    	  {
+    	    "var_type"         "FIELD_INTEGER"
+    	    "damage"           "0"
+    	  }
+    	}
+	}
+
+	
+	"Jail_Roll"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"jail_roll.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+		"AbilityTextureName"			"jail_dice_icon"
+		"MaxLevel"						"1"
+	}
+
+	"Pay_Jail"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"pay_jail.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+		"AbilityTextureName"			"jail_buyback_icon"
+		"MaxLevel"						"1"
+	}
+
+	"Upgrade"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"upgrade.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_CREEP"
+		"AbilityTextureName"			"upgrade_icon"
+		"MaxLevel"						"1"
+
+    	"AbilitySpecial"
+    	{
+    	  "01"
+    	  {
+    	    "var_type"          "FIELD_INTEGER"
+    	    "chance"            "100"
+    	  }
+    	  "02"
+    	  {
+    	    "var_type"          "FIELD_INTEGER"
+    	    "gold"     			"0"
+    	  }
+    	  "03"
+    	  {
+    	    "var_type"         "FIELD_INTEGER"
+    	    "damage"           "0"
+    	  }
+    	}
+	}
+
+	"Chest_Sector_Card"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"chest_sector_card.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+		"AbilityTextureName"			"chance_sector_icon"
+		"MaxLevel"						"1"
+	}
+
+	"Pay_Chest_Sector"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"pay_chest_sector.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+		"AbilityTextureName"			"buy_icon"
+		"MaxLevel"						"1"
+	}
+	
+	"Mortgage"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"mortgage.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_CREEP"
+		"AbilityTextureName"			"sell_icon"
+		"MaxLevel"						"1"
+
+    	"AbilitySpecial"
+    	{
+    	  "01"
+    	  {
+    	    "var_type"          "FIELD_INTEGER"
+    	    "chance"            "100"
+    	  }
+    	  "02"
+    	  {
+    	    "var_type"          "FIELD_INTEGER"
+    	    "gold"     			"0"
+    	  }
+    	  "03"
+    	  {
+    	    "var_type"         "FIELD_INTEGER"
+    	    "damage"           "0"
+    	  }
+    	}
+	}
+
+	"Buy_back"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"buy_back.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_CREEP"
+		"AbilityTextureName"			"buy_back_icon"
+		"MaxLevel"						"1"
+
+    	"AbilitySpecial"
+    	{
+    	  "01"
+    	  {
+    	    "var_type"          "FIELD_INTEGER"
+    	    "trap_radius"            "200"
+    	  }
+    	  "02"
+    	  {
+    	    "var_type"          "FIELD_INTEGER"
+    	    "gold"     			"0"
+    	  }
+    	  "03"
+    	  {
+    	    "var_type"         "FIELD_INTEGER"
+    	    "damage"           "0"
+    	  }
+    	}
+	}
+
+	"Trade_Offer"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"trade_offer.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityTextureName"			"trade_icon"
+		"MaxLevel"						"1"
+
+    	"AbilitySpecial"
+    	{
+    	  "01"
+    	  {
+    	    "var_type"          "FIELD_INTEGER"
+    	    "chance"            "100"
+    	  }
+    	  "02"
+    	  {
+    	    "var_type"          "FIELD_INTEGER"
+    	    "gold"     			"0"
+    	  }
+    	  "03"
+    	  {
+    	    "var_type"         "FIELD_INTEGER"
+    	    "damage"           "0"
+    	  }
+    	}
+	}
+}

@@ -1,0 +1,7 @@
+"CustomEvents"
+{
+	"display_custom_error"
+	{
+		"error_msg"		"%s"
+	}
+}

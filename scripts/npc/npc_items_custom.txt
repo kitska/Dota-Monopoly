@@ -1,0 +1,13 @@
+"DOTAAbilities"
+{
+    "item_release_from_prison"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "item_release_from_prison.lua"
+        "AbilityTextureName"            "items/release_from_prison_icon"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+        "ItemCost"                      "100"
+        "ItemPurchasable"               "0"
+        "ItemSellable"                  "1"
+    }
+}

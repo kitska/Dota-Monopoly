@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+    "maps"        "main_map_v1"
+    "main_map_v1"
+    {
+        "MaxPlayers"        "4"
+    }
+    "MinimalPrecache"        "1"
+    "IsPlayable"        "1"
+    "EventGame"        "1"
+}
